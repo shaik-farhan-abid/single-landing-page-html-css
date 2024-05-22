@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: #fff5e7;
+
+  overflow-x: hidden !important;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: "Montserrat_extra_light";
+  font-family: "Montserrat", sans-serif;
+}
+
+body input:focus {
+  outline: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: red;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+a:hover {
+  color: crimson;
+}
+
+img {
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+::-moz-selection {
+  color: #110909;
+  background: #d6d6da;
+}
+
+::selection {
+  color: #110909;
+  background: #d6d6da;
+}
+
+header .div-1-bnr {
+  background-color: #be4040;
+  padding: 0.5vw;
+}
+
+header .div-1-bnr .div-1-p {
+  text-align: center;
+  font-size: 1vw;
+  color: #fff6ff;
+  font-family: "Raleway_medium";
+  font-family: "Montserrat", sans-serif;
+}
+
+header .div-1-bnr .div-1-p img {
+  width: 2.5%;
+  position: absolute;
+  vertical-align: middle;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #0e0e14;
+  background-color: rgb(39, 37, 37);
+  padding-bottom: 0.25vw;
+}
+
+nav .nav-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25vw 42vw 33vw;
+  grid-template-columns: 25vw 42vw 33vw;
+}
+
+nav .nav-grid .nav-grid-1 img {
+  width: 100%;
+  background-color: #0d0a0f;
+
+  padding: 1vw;
+  margin-top: 0.5vw;
+}
+
+nav .nav-grid .nav-grid-2 {
+  font-family: "Poppins_light";
+}
+
+nav .nav-grid .nav-grid-2 .nav-ul-1 .nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 1vw;
+  vertical-align: middle;
+  margin-top: 2vw;
+}
+
+nav .nav-grid .nav-grid-2 .nav-ul-1 .nav-ul .nav-li {
+  font-size: 1.2rem;
+}
+
+nav .nav-grid .nav-grid-2 .nav-ul-1 .nav-ul .nav-li a {
+  color: white;
+}
+
+nav .nav-grid .nav-grid-2 .nav-ul-1 .nav-ul .nav-li a:hover {
+  color: crimson;
+}
+
+nav .nav-grid-3 .nav-ul-2 {
+  padding: 1.5vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 2vw 2vw;
+  grid-template-rows: 2vw 2vw;
+}
+
+nav .nav-grid-3 .nav-ul-2 .ul-grid-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5vw;
+  font-size: 16px;
+}
+
+nav .nav-grid-3 .nav-ul-2 .ul-grid-1 .grp {
+  white-space: nowrap;
+  color: #ebe4ff;
+  font-family: "Montserrat_medium";
+  font-family: "Montserrat", sans-serif;
+  vertical-align: middle;
+  color: #9b1b3b;
+  margin-right: 2vw;
+}
+
+nav .nav-grid-3 .nav-ul-2 .ul-grid-1 i {
+  color: #9b1b3b;
+}
+
+nav .nav-grid-3 .nav-ul-2 .ul-grid-2 .nav-ul-x {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 1.5vw;
+}
+
+nav .nav-grid-3 .nav-ul-2 .ul-grid-2 .nav-ul-x .nav-li-x {
+  padding: 0.1vw;
+  font-family: "Montserrat_medium";
+  font-family: "Montserrat", sans-serif;
+}
+
+nav .nav-grid-3 .nav-ul-2 .ul-grid-2 .nav-ul-x .nav-li-x a {
+  color: #c7b9bc;
+  font-size: 1.05vw;
+}
+
+nav .nav-grid-3 .nav-ul-2 .ul-grid-2 .nav-ul-x .nav-li-x a:hover {
+  color: crimson;
+}
+
+.div-grid {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-gap: 20px;
+}
+
+/* Style the grid items */
+.div-grid > div {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Style specific grid items */
+.gr-1 {
+  background-color: #f2f2f2;
+}
+
+/* Style the image inside the grid */
+.gr-2 img {
+  max-width: 80%;
+
+  width: 100%;
+}
+
+/* Additional styles for text elements */
+.hr-h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.gr-p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer {
+  height: 12rem;
+  border-top: 1px solid rgba(151, 135, 135, 0.5);
+  margin-top: 0;
+  font-family: "Poppins-Light";
+  background-color: rgb(18, 17, 17);
+}
+
+.footer .footer-2-div {
+  margin: 2vw;
+}
